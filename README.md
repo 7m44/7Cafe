@@ -7,6 +7,7 @@
   **Your Easiest, Cheapest, and Most Premium Way to Manage Your Cyber Cafe & Gaming Lounge.**
 
   [![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#key-highlights)
+  [![Direct Download](https://img.shields.io/badge/Download-v5.5%20(7z)-00C853?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/7m44/7Cafe/releases/download/V5.5/7Cafe.v5.5.7z)
   [![Ad Free](https://img.shields.io/badge/100%25-Ad--Free-10B981?style=for-the-badge)](#key-highlights)
   [![No PC Limit](https://img.shields.io/badge/Stations-Unlimited%20(No%20PC%20Limit)-8B5CF6?style=for-the-badge)](#pricing-plans)
   [![Free Trial](https://img.shields.io/badge/Trial-7--Day%20Free%20Trial-38BDF8?style=for-the-badge)](#7-day-free-trial)
@@ -23,6 +24,7 @@
 ## 📌 Table of Contents
 - [What is 7Cafe?](#-what-is-7cafe)
 - [Key Highlights](#-key-highlights)
+- [Download 7Cafe](#-download-7cafe)
 - [Why 7Cafe vs Legacy Systems?](#-why-7cafe-vs-legacy-systems)
 - [Feature Walkthrough](#-feature-walkthrough)
   - [1. Real-Time Dashboard & Station Control](#1-real-time-dashboard--station-control)
@@ -52,6 +54,17 @@ Tired of legacy, bloated, and ad-ridden software that requires painful static IP
 - ⚡ **Unlimited Stations (No PC Limit)**: Connect 10, 50, or 100+ PCs and gaming consoles on a single flat license without tier limits or per-seat fees.
 - 🎮 **PC + Console Hybrid**: Unified billing for PC workstations and PlayStation / Xbox / Nintendo consoles in one place.
 - 🛡️ **Zero Cash Discrepancies**: Automated shift opening float, session revenue vs. retail POS sales segregation, and drawer reconciliation.
+
+---
+
+## 💾 Download 7Cafe
+
+Get the latest official release directly from GitHub:
+
+[![Direct Download](https://img.shields.io/badge/Download-7Cafe.v5.5.7z-00C853?style=for-the-badge&logo=github&logoColor=white)](https://github.com/7m44/7Cafe/releases/download/V5.5/7Cafe.v5.5.7z)
+
+- **Release Version**: `v5.5`
+- **Direct Download Link**: [**7Cafe.v5.5.7z**](https://github.com/7m44/7Cafe/releases/download/V5.5/7Cafe.v5.5.7z)
 
 ---
 
