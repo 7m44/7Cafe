@@ -6,10 +6,10 @@
 
   **Your Easiest, Cheapest, and Most Premium Way to Manage Your Cyber Cafe & Gaming Lounge.**
 
-  [![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#system-requirements)
+  [![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)](#key-highlights)
   [![Ad Free](https://img.shields.io/badge/100%25-Ad--Free-10B981?style=for-the-badge)](#key-highlights)
-  [![No PC Limit](https://img.shields.io/badge/Stations-Unlimited%20(No%20PC%20Limit)-8B5CF6?style=for-the-badge)](#pricing)
-  [![Free Trial](https://img.shields.io/badge/Trial-7--Day%20Free%20Trial-38BDF8?style=for-the-badge)](#free-trial)
+  [![No PC Limit](https://img.shields.io/badge/Stations-Unlimited%20(No%20PC%20Limit)-8B5CF6?style=for-the-badge)](#pricing-plans)
+  [![Free Trial](https://img.shields.io/badge/Trial-7--Day%20Free%20Trial-38BDF8?style=for-the-badge)](#7-day-free-trial)
   [![Telegram Support](https://img.shields.io/badge/Telegram-@blank12x-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/blank12x)
 
   <br />
@@ -33,8 +33,6 @@
   - [6. Client Floating In-Seat Experience](#6-client-floating-in-seat-experience)
 - [Pricing Plans](#-pricing-plans)
 - [7-Day Free Trial](#-7-day-free-trial)
-- [System Requirements](#-system-requirements)
-- [نظرة عامة باللغة العربية (Arabic Overview)](#-نظرة-عامة-باللغة-العربية)
 - [Support & Contact](#-support--contact)
 
 ---
@@ -144,38 +142,6 @@ Experience 7Cafe on your venue floor before paying a single cent:
 1. Message us on Telegram: **[@blank12x](https://t.me/blank12x)**
 2. Request your instant **7-Day Full-Featured Trial License**.
 3. Install the server and client in minutes — no credit card required.
-
----
-
-## 💻 System Requirements
-
-### Server Station
-- **OS**: Windows 10 / Windows 11 (64-bit)
-- **CPU**: Intel Core i3 / AMD Ryzen 3 or higher
-- **RAM**: 4 GB minimum (8 GB recommended)
-- **Network**: Local Area Network (LAN / Wi-Fi)
-
-### Client Station
-- **OS**: Windows 10 / Windows 11
-- **RAM**: 2 GB minimum
-- **Footprint**: Ultra-lightweight background process (< 50 MB RAM)
-
----
-
-## 🇸🇦 نظرة عامة باللغة العربية
-
-### ما هو برنامج 7Cafe؟
-**7Cafe** هو أحدث وأقوى نظام لإدارة مقاهي الإنترنت (السيبرات) وصالات ألعاب البلايستيشن والجيمنج على أجهزة ويندوز. صُمم البرنامج ليتخلص نهائياً من عيوب البرامج القديمة والمملة مثل البطء، الإعلانات المزعجة، وتعقيدات ضبط عناوين الـ IP.
-
-### أهم مميزات 7Cafe:
-- 🚀 **تسطيب فوري بدون تعقيد**: اتصال تلقائي بين أجهزة الزبائن والسيرفر عبر الشبكة بدون الحاجة لضبط IPs أو بورتات في الراوتر.
-- 🚫 **خالٍ تماماً من الإعلانات 100%**: بدون أي نوافذ منبثقة أو إعلانات تبطئ الأجهزة أو تستهلك باقة الإنترنت.
-- 🖥️ **عدد أجهزة غير محدود (No PC Limit)**: رخصة واحدة تغطي كل أجهزتك مهما زاد عددها دون أي رسوم إضافية لكل جهاز.
-- 🛒 **كاشير ونقطة بيع POS مدمجة**: تسجيل مبيعات المشروبات والمأكولات وربطها المباشر بجلسة الزبون في الكمبيوتر أو الدفع النقدي المباشر.
-- 📦 **إدارة المخازن والمنتجات**: متابعة حركة المنتجات وتنبيهات نواقص البضاعة بسهولة.
-- 💵 **تقفيل شفتات وحسابات دقيقة**: تسجيل عهدة الدرج، فصل دخل الأجهزة عن مبيعات الكافتيريا، ومنع التلاعب المالي.
-- 🎮 **قسم مخصص للبلايستيشن والكونسول**: حساب وقت الجلسات الفردية والزوجية ودمج الطلبات في فاتورة واحدة.
-- ⏱️ **شريط عائم فاخر للعميل**: واجهة عصرية تُظهر للزبون الوقت المتبقي، التكلفة، زر نداء الكاشير، وطلب الأوردرات من مكانه.
 
 ---
 
