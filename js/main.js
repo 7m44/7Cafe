@@ -213,12 +213,7 @@ const translations = {
     "footer_quick_links": "روابط سريعة",
     "footer_contact": "التواصل والدعم",
     "footer_rights": "جميع الحقوق محفوظة © 2026 7Cafe Server.",
-    "footer_dev": "برمجة وتطوير @7m44",
-
-    // Modals
-    "modal_download_title": "تحميل برنامج 7Cafe",
-    "modal_download_desc": "رابط التحميل المباشر للبرنامج سيتم تفعيله وتحديثه قريباً جداً في هذه الصفحة. للحصول على رابط التحميل الفوري أو تجربة النسخة التجريبية مجاناً، تواصل معنا الآن عبر تيليجرام!",
-    "modal_download_btn": "تواصل عبر تيليجرام للتحميل الفوري"
+    "footer_dev": "برمجة وتطوير @7m44"
   },
 
   en: {
@@ -417,12 +412,7 @@ const translations = {
     "footer_quick_links": "Quick Links",
     "footer_contact": "Contact & Support",
     "footer_rights": "All rights reserved © 2026 7Cafe Server.",
-    "footer_dev": "Crafted with ❤️ by @7m44",
-
-    // Modals
-    "modal_download_title": "Download 7Cafe",
-    "modal_download_desc": "The direct download mirror will be linked here shortly. To receive the installer right now or request your 7-day free trial key, message us on Telegram!",
-    "modal_download_btn": "Contact on Telegram for Immediate Download"
+    "footer_dev": "Crafted with ❤️ by @7m44"
   }
 };
 
@@ -550,13 +540,9 @@ function initFAQ() {
 }
 
 /* ==========================================================================
-   8. Modals System (Download, Trial, Lightbox)
+   8. Modals System (Lightbox)
    ========================================================================== */
 function initModals() {
-  // Download Modal triggers
-  const downloadBtns = document.querySelectorAll('.trigger-download');
-  const downloadModal = document.getElementById('download-modal');
-
   // Lightbox Modal
   const lightboxModal = document.getElementById('lightbox-modal');
 
@@ -573,14 +559,6 @@ function initModals() {
   document.querySelectorAll('.modal-card').forEach(card => {
     card.addEventListener('click', (e) => {
       e.stopPropagation();
-    });
-  });
-
-  // Open download modal
-  downloadBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      openModal(downloadModal);
     });
   });
 
