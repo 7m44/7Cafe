@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page_title">7Cafe - Cyber Cafe Management</title>
+  <meta name="description" content="برنامج 7Cafe لإدارة السيبرات ومقاهي الإنترنت وأجهزة البلايستيشن. تسطيب فوري بدون إعداد IP معقد، خالٍ تماماً من الإعلانات، نقطة بيع POS وحسابات شفتات، وبأرخص سعر في السوق بدءاً من 4$ مع تجربة مجانية 7 أيام.">
+  <meta name="keywords" content="7Cafe, برنامج سيبر, إدارة مقاهي انترنت, cyber cafe management, بلايستيشن, كاشير سيبر, برامج كمبيوتر, صالات ألعاب, gaming lounge software">
+  <meta name="theme-color" content="#0b0a17">
+
+  <!-- OpenGraph / Social Sharing -->
+  <meta property="og:title" content="7Cafe - Cyber Cafe Management">
+  <meta property="og:description" content="أذكى وأقوى نظام لإدارة السيبرات وأجهزة البلايستيشن بأرخص سعر وبدون إعلانات. جرب مجاناً 7 أيام!">
+  <meta property="og:image" content="assets/hero_dashboard.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=1.4">
+</head>
+<body>
+
+  <!-- Ambient Dynamic Background -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="main-navbar">
+    <div class="container nav-wrapper">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brand-logo-link">
+        <div class="logo-badge">7C</div>
+        <div class="brand-info">
+          <span class="brand-title">7Cafe</span>
+          <span class="brand-tagline">Cyber Cafe Management</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features" class="nav-link" data-i18n="nav_features">المميزات</a></li>
+        <li><a href="#tour" class="nav-link" data-i18n="nav_tour">جولة بالنظام</a></li>
+        <li><a href="#client-panel" class="nav-link" data-i18n="nav_client">واجهة العميل</a></li>
+        <li><a href="#pricing" class="nav-link" data-i18n="nav_pricing">الأسعار</a></li>
+        <li><a href="#faq" class="nav-link" data-i18n="nav_faq">الأسئلة الشائعة</a></li>
+      </ul>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <button class="lang-toggle-btn" id="lang-toggle" title="تغيير اللغة / Change Language" aria-label="Toggle Language">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/>
+          </svg>
+          <span id="lang-toggle-text">English</span>
+        </button>
+
+        <!-- Ordinary / Secondary Action: Free Trial -->
+        <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" id="nav-btn-trial" data-i18n="nav_trial">تجربة مجانية 7 أيام</a>
+
+        <!-- Highlighted Action: Download App -->
+        <a href="#" class="btn btn-highlight btn-sm trigger-download" id="nav-btn-download" data-i18n="nav_download">تحميل البرنامج</a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section: Two-Column Layout -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Text Content Column (Right in RTL, Left in LTR) -->
+          <div class="hero-content-col">
+            <h1 class="hero-title" data-i18n="hero_title">
+              طريقتك الأسهل، الأرخص، <span class="gradient-text">والأكثر تميزاً</span> لإدارة <span class="gradient-text">السيبر</span>
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="hero_subtitle">
+              برنامج 7Cafe لإدارة السيبر ومقاهي الإنترنت بدون أي إعدادات معقدة، وخالٍ 100% من الإعلانات، مع نقطة بيع POS مدمجة والمزيد بأرخص سعر في السوق.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-trial btn-lg" id="hero-cta-trial">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                </svg>
+                <span data-i18n="hero_btn_trial">تجربة مجانية 7 أيام</span>
+              </a>
+
+              <a href="#" class="btn btn-primary btn-lg trigger-download" id="hero-cta-download">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"/>
+                </svg>
+                <span data-i18n="hero_btn_download">تحميل برنامج 7Cafe</span>
+              </a>
+            </div>
+
+            <!-- Crisp trust signals strip -->
+            <div class="hero-highlights-strip">
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="highlight_no_ip">ربط تلقائي بدون IP</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="highlight_no_ads">خالٍ 100% من الإعلانات</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="highlight_no_limit">عدد أجهزة غير محدود</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mockup Column (Left in RTL, Right in LTR) -->
+          <div class="hero-mockup-col">
+            <div class="hero-mockup-wrapper">
+              <div class="hero-mockup-glow"></div>
+              
+
+              <!-- Mockup Window -->
+              <div class="hero-mockup-card">
+                <div class="mockup-window-header">
+                  <div class="window-dots">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                  </div>
+                  <div class="mockup-title">
+                    <span>7Cafe Server • Live Dashboard</span>
+                  </div>
+                </div>
+                <div class="mockup-image-box" id="hero-image-frame" style="cursor: zoom-in;" title="اضغط لتكبير الصورة بدقة كاملة">
+                  <img src="assets/hero_dashboard.png" alt="7Cafe Server Dashboard Overview" id="hero-mockup-img" loading="eager">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features Grid -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="feat_tag">مميزات البرنامج</span>
+          <h2 class="section-title" data-i18n="feat_title">كل ما تحتاجه لإدارة السيبر في مكان واحد</h2>
+          <p class="section-desc" data-i18n="feat_desc">صُمم 7Cafe بعناية فائقة ليلبي كل تفاصيل العمل اليومي داخل مراكز الألعاب ومقاهي الإنترنت بدون أي تعقيد.</p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feat 1: Zero IP Setup -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_1_title">تسطيب فوري بدون إعداد IP معقد</h3>
+            <p class="feature-desc" data-i18n="feat_1_desc">ودّع ضبط العناوين الثابتة والبورتات المعقدة. يقوم النظام باكتشاف الأجهزة والربط التلقائي عبر الشبكة بكل سلاسة وأمان.</p>
+            <div class="feature-badge" data-i18n="feat_1_badge">Plug & Play</div>
+          </div>
+
+          <!-- Feat 2: Unbeatable Pricing -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><line x1="12" y1="6" x2="12" y2="8"/><line x1="12" y1="16" x2="12" y2="18"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_2_title">الأرخص في السوق بلا منافس</h3>
+            <p class="feature-desc" data-i18n="feat_2_desc">نوفر لك أفضل عائد استثماري؛ باقة مدى الحياة بـ 30$ فقط أو سنة بـ 15$ أو شهر بـ 4$، مع فترة تجربة مجانية 7 أيام كاملة.</p>
+            <div class="feature-badge" data-i18n="feat_2_badge">أفضل سعر</div>
+          </div>
+
+          <!-- Feat 3: 100% Ad-Free -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_3_title">خالٍ تماماً من الإعلانات المزعجة</h3>
+            <p class="feature-desc" data-i18n="feat_3_desc">لا نوافذ منبثقة، لا بانرات تجارية، ولا استهلاك لباقة الإنترنت. برنامج نظيف ومحترف بنسبة 100% لك ولزبائنك.</p>
+            <div class="feature-badge" data-i18n="feat_3_badge">100% Ad-Free</div>
+          </div>
+
+          <!-- Feat 4: POS & Accounting -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_4_title">نقطة مبيعات POS ونظام حسابات</h3>
+            <p class="feature-desc" data-i18n="feat_4_desc">إدارة كاملة للمشروبات والوجبات ومستلزمات الجيمنج، مع نظام كاشير سريع وجرد مخزون دقيق وحساب تكلفة الأوردرات.</p>
+            <div class="feature-badge" data-i18n="feat_4_badge">كاشير & جرد</div>
+          </div>
+
+          <!-- Feat 5: Consoles Support -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M6 12h4"/><path d="M8 10v4"/><circle cx="17" cy="10" r="1"/><circle cx="15" cy="13" r="1"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_5_title">إدارة أجهزة الكونسول والبلايستيشن</h3>
+            <p class="feature-desc" data-i18n="feat_5_desc">إدارة غرف وأجهزة البلايستيشن (فردي وزوجي)، مع حساب دقيق للوقت والوجبات وإمكانية ربطها بفاتورة موحدة.</p>
+            <div class="feature-badge" data-i18n="feat_5_badge">Console Support</div>
+          </div>
+
+          <!-- Feat 6: Unlimited Stations (No PC Limit) -->
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18.178 8c5.096 0 5.096 8 0 8-2.5 0-3.5-2.5-6.178-5.5C9.5 7.5 8.5 5 6 5a5 5 0 0 0 0 10c2.5 0 3.5-2.5 6.178-5.5 2.5-3 3.5-5.5 6-5.5z"/></svg>
+            </div>
+            <h3 class="feature-title" data-i18n="feat_unlimited_title">عدد أجهزة غير محدود (No PC Limit)</h3>
+            <p class="feature-desc" data-i18n="feat_unlimited_desc">رخصة واحدة تشمل جميع أجهزتك بلا استثناء! لا توجد أي حدود أو اشتراكات تصاعدية على عدد الحواسيب والكونسول في صالتك، مهما كبر حجم مشروعك أو زاد عدد أجهزتك.</p>
+            <div class="feature-badge" data-i18n="feat_unlimited_badge">No PC Limit ∞</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How 7Cafe Works: System Workflow & Screen Walkthrough -->
+    <section class="section" id="tour">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="tour_tag">طريقة عمل البرنامج</span>
+          <h2 class="section-title" data-i18n="tour_title">كيف يدير 7Cafe صالتك اليومية؟</h2>
+          <p class="section-desc" data-i18n="tour_desc">استعراض عملي ومباشر لشاشات النظام وكيفية إدارة الأجهزة والمبيعات والمخزون وحسابات الشفتات.</p>
+        </div>
+
+        <div class="workflow-list">
+          <!-- Screen 1: Active PC Stations -->
+          <div class="workflow-item">
+            <div class="workflow-image-col">
+              <div class="workflow-mockup-wrapper">
+                <div class="workflow-mockup-glow"></div>
+                <div class="workflow-mockup-card">
+                  <div class="mockup-window-header">
+                    <div class="window-dots">
+                      <span class="dot dot-red"></span>
+                      <span class="dot dot-yellow"></span>
+                      <span class="dot dot-green"></span>
+                    </div>
+                    <div class="mockup-title">
+                      <span>7Cafe Server • Active PC Stations</span>
+                    </div>
+                  </div>
+                  <div class="workflow-image-frame mockup-image-box" data-zoom-src="assets/active_computers.png" data-zoom-title="مراقبة الحواسيب النشطة والتحكم عن بعد" title="اضغط لتكبير الصورة بدقة كاملة">
+                    <img src="assets/active_computers.png" alt="7Cafe PC Stations Control" loading="eager">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-info-col">
+              <div class="workflow-step-pill">
+                <span class="workflow-step-num">1</span>
+                <span data-i18n="wf_2_tag">مراقبة المحطات</span>
+              </div>
+              <h3 class="workflow-title" data-i18n="wf_2_title">إدارة جميع أجهزة عملائك في مكان واحد</h3>
+              <p class="workflow-desc" data-i18n="wf_2_desc">واجهة سهلة وسلسة الاستخدام لإدارة ومتابعة جميع أجهزة العملاء وجلساتهم في شاشة واحدة.</p>
+            </div>
+          </div>
+
+          <!-- Screen 2: POS Checkout & Cafe -->
+          <div class="workflow-item">
+            <div class="workflow-image-col">
+              <div class="workflow-mockup-wrapper">
+                <div class="workflow-mockup-glow"></div>
+                <div class="workflow-mockup-card">
+                  <div class="mockup-window-header">
+                    <div class="window-dots">
+                      <span class="dot dot-red"></span>
+                      <span class="dot dot-yellow"></span>
+                      <span class="dot dot-green"></span>
+                    </div>
+                    <div class="mockup-title">
+                      <span>7Cafe Server • POS Checkout</span>
+                    </div>
+                  </div>
+                  <div class="workflow-image-frame mockup-image-box" data-zoom-src="assets/pos_checkout.png" data-zoom-title="نقطة البيع POS ومبيعات الكافتيريا" title="اضغط لتكبير الصورة بدقة كاملة">
+                    <img src="assets/pos_checkout.png" alt="7Cafe POS Terminal" loading="eager">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-info-col">
+              <div class="workflow-step-pill">
+                <span class="workflow-step-num">2</span>
+                <span data-i18n="wf_3_tag">نقطة البيع والكاشير</span>
+              </div>
+              <h3 class="workflow-title" data-i18n="wf_3_title">كاشير ونقطة بيع مدمجة (Built-in POS)</h3>
+              <p class="workflow-desc" data-i18n="wf_3_desc">إدارة شاملة لجميع مبيعاتك وطلباتك في مكان واحد بكل سهولة.</p>
+            </div>
+          </div>
+
+          <!-- Screen 3: Stock & Products -->
+          <div class="workflow-item">
+            <div class="workflow-image-col">
+              <div class="workflow-mockup-wrapper">
+                <div class="workflow-mockup-glow"></div>
+                <div class="workflow-mockup-card">
+                  <div class="mockup-window-header">
+                    <div class="window-dots">
+                      <span class="dot dot-red"></span>
+                      <span class="dot dot-yellow"></span>
+                      <span class="dot dot-green"></span>
+                    </div>
+                    <div class="mockup-title">
+                      <span>7Cafe Server • Inventory & Products</span>
+                    </div>
+                  </div>
+                  <div class="workflow-image-frame mockup-image-box" data-zoom-src="assets/inventory_stock.png" data-zoom-title="جرد المخزون والمنتجات والأرباح" title="اضغط لتكبير الصورة بدقة كاملة">
+                    <img src="assets/inventory_stock.png" alt="7Cafe Inventory Management" loading="eager">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-info-col">
+              <div class="workflow-step-pill">
+                <span class="workflow-step-num">3</span>
+                <span data-i18n="wf_4_tag">المخزن والمستودع</span>
+              </div>
+              <h3 class="workflow-title" data-i18n="wf_4_title">إدارة المنتجات والمخزون</h3>
+              <p class="workflow-desc" data-i18n="wf_4_desc">إضافة وحذف المنتجات، ومتابعة النواقص والكميات المنخفضة من خلال صفحة واحدة سهلة الاستخدام.</p>
+            </div>
+          </div>
+
+          <!-- Screen 4: Shifts & Cash Drawer -->
+          <div class="workflow-item">
+            <div class="workflow-image-col">
+              <div class="workflow-mockup-wrapper">
+                <div class="workflow-mockup-glow"></div>
+                <div class="workflow-mockup-card">
+                  <div class="mockup-window-header">
+                    <div class="window-dots">
+                      <span class="dot dot-red"></span>
+                      <span class="dot dot-yellow"></span>
+                      <span class="dot dot-green"></span>
+                    </div>
+                    <div class="mockup-title">
+                      <span>7Cafe Server • Shifts & Cash Drawer</span>
+                    </div>
+                  </div>
+                  <div class="workflow-image-frame mockup-image-box" data-zoom-src="assets/shifts_drawer.png" data-zoom-title="تسليم الشفتات ومطابقة الدرج المالي" title="اضغط لتكبير الصورة بدقة كاملة">
+                    <img src="assets/shifts_drawer.png" alt="7Cafe Shift Management" loading="eager">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="workflow-info-col">
+              <div class="workflow-step-pill">
+                <span class="workflow-step-num">4</span>
+                <span data-i18n="wf_5_tag">الحسابات والدرج المالي</span>
+              </div>
+              <h3 class="workflow-title" data-i18n="wf_5_title">متابعة الحسابات المالية وإدارة الموظفين</h3>
+              <p class="workflow-desc" data-i18n="wf_5_desc">منع التلاعب المالي ومطابقة الدرج تلقائياً مع تتبع الشفتات: تسجيل عهدة البداية، فصل إيرادات الجلسات عن مبيعات الكافتيريا لحظياً، ومطابقة الرصيد الفعلي بدقة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Experience & Interactive Simulator Section -->
+    <section class="section client-section" id="client-panel">
+      <div class="container">
+        <div class="client-interactive-grid">
+          <!-- Text Explanation -->
+          <div class="client-info-col">
+            <div>
+              <span class="section-tag" data-i18n="client_tag">تجربة العميل</span>
+              <h2 class="section-title" data-i18n="client_title">تجربة عميل ترتقي بمستوى السيبر</h2>
+              <p class="section-desc" data-i18n="client_desc">امنح عملاءك تجربة ألعاب فريدة، مع وصول سهل للألعاب وقائمة الطلبات دون الحاجة لمغادرة مقاعدهم.</p>
+            </div>
+
+            <div class="client-badge-list">
+              <div class="client-feature-item">
+                <div class="client-item-icon">⏱️</div>
+                <div>
+                  <h4 class="client-item-title" data-i18n="client_feat_1_title">متابعة الوقت والتكلفة بدقة تامة</h4>
+                </div>
+              </div>
+
+              <div class="client-feature-item">
+                <div class="client-item-icon">🍔</div>
+                <div>
+                  <h4 class="client-item-title" data-i18n="client_feat_2_title">طلب الأوردرات من مكان الزبون</h4>
+                </div>
+              </div>
+
+              <div class="client-feature-item">
+                <div class="client-item-icon">🔔</div>
+                <div>
+                  <h4 class="client-item-title" data-i18n="client_feat_3_title">زر نداء الكاشير السريع</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Client Real Screenshot Column -->
+          <div class="client-image-col">
+            <div class="client-real-frame" id="client-real-frame" title="7Cafe Client Interface">
+              <img src="assets/client_floating_panel.png" alt="7Cafe Client Real Interface" id="client-real-img" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <!-- 7-Day Free Trial Notice Banner -->
+        <div class="pricing-banner-trial">
+          <div class="trial-banner-content">
+            <div class="trial-gift-icon">🎁</div>
+            <div>
+              <h3 class="trial-banner-title" data-i18n="pricing_trial_banner_title">🎁 جرّب مجاناً لمدة 7 أيام بكامل الصلاحيات!</h3>
+              <p class="trial-banner-sub" data-i18n="pricing_trial_banner_sub">حمّل البرنامج واختبر جميع المزايا في صالتك قبل دفع أي قرش. لا يتطلب بطاقة ائتمان.</p>
+            </div>
+          </div>
+          <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-trial btn-md" id="pricing-banner-btn" data-i18n="pricing_btn_claim_trial">تفعيل التجربة المجانية</a>
+        </div>
+
+        <div class="section-header">
+          <span class="section-tag" data-i18n="pricing_tag">خطط الأسعار</span>
+          <h2 class="section-title" data-i18n="pricing_title">أسعار لا تُقارن.. واختر ما يناسبك</h2>
+          <p class="section-desc" data-i18n="pricing_desc">شفافية مطلقة بدون أي رسوم خفية، مع دعم فني مستمر.</p>
+        </div>
+
+        <!-- 3 Pricing Cards -->
+        <div class="pricing-grid">
+          <!-- Monthly Plan -->
+          <div class="pricing-card">
+            <h3 class="pricing-plan-name" data-i18n="plan_month_name">باقة الشهر</h3>
+            <p class="pricing-plan-desc" data-i18n="plan_month_desc">مثالية للتجربة أو الأنشطة الموسمية</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount">4</span>
+              <span class="pricing-period" data-i18n="plan_month_period">/ شهرياً</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong data-i18n="plan_feat_pcs">عدد أجهزة غير محدود (No PC Limit)</strong>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_no_ads">بدون إعلانات 100%</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_dev_support">دعم من المطور</span>
+              </li>
+            </ul>
+            <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="plan_btn_buy">اختر هذه الباقة الآن</a>
+          </div>
+
+          <!-- Lifetime Plan (Featured) -->
+          <div class="pricing-card featured">
+            <div class="pricing-ribbon" data-i18n="plan_lifetime_badge">🔥 الخيار الأفضل والأكثر طلباً</div>
+            <h3 class="pricing-plan-name" data-i18n="plan_lifetime_name">باقة مدى الحياة</h3>
+            <p class="pricing-plan-desc" data-i18n="plan_lifetime_desc">ادفع مرة واحدة فقط وامتلك البرنامج للأبد!</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount">30</span>
+              <span class="pricing-period" data-i18n="plan_lifetime_period">دفعة واحدة فقط</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong data-i18n="plan_feat_lifetime_special">ترخيص دائم مدى الحياة بدون تجديد</strong>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong data-i18n="plan_feat_pcs">عدد أجهزة غير محدود (No PC Limit)</strong>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_no_ads">بدون إعلانات 100%</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_dev_support">دعم من المطور</span>
+              </li>
+            </ul>
+            <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg" data-i18n="plan_btn_buy">اختر هذه الباقة الآن</a>
+          </div>
+
+          <!-- Yearly Plan -->
+          <div class="pricing-card">
+            <h3 class="pricing-plan-name" data-i18n="plan_year_name">باقة السنة</h3>
+            <p class="pricing-plan-desc" data-i18n="plan_year_desc">الخيار الأوفر للاشتراك السنوي</p>
+            <div class="pricing-price-wrap">
+              <span class="pricing-currency">$</span>
+              <span class="pricing-amount">15</span>
+              <span class="pricing-period" data-i18n="plan_year_period">/ سنوياً</span>
+            </div>
+            <ul class="pricing-features-list">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong data-i18n="plan_feat_pcs">عدد أجهزة غير محدود (No PC Limit)</strong>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_no_ads">بدون إعلانات 100%</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span data-i18n="plan_feat_dev_support">دعم من المطور</span>
+              </li>
+            </ul>
+            <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="plan_btn_buy">اختر هذه الباقة الآن</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-i18n="faq_tag">إجابات لاستفساراتك</span>
+          <h2 class="section-title" data-i18n="faq_title">الأسئلة الأكثر شيوعاً</h2>
+        </div>
+
+        <div class="faq-grid">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <div class="faq-question">
+              <span data-i18n="faq_q1">كيف أبدأ الفترة المجانية لمدة 7 أيام؟</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq_a1">كل ما عليك هو التواصل معنا عبر تيليجرام t.me/blank12x وطلب كود التفعيل التجريبي، وسنقوم بتزويدك بكود التفعيل التجريبي فوراً لتبدأ تجربتك لمدة 7 أيام كاملة المزايا.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              <span data-i18n="faq_q2">هل أحتاج لمعرفة تقنية أو إعداد أرقام IP للأجهزة؟</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq_a2">إطلاقاً! هذا هو أحد أكبر مميزات 7Cafe. البرنامج مصمم بتقنية الاكتشاف التلقائي عبر الشبكة المحلية، مما يعني أن الأجهزة ستتصل بالسيرفر بمجرد تشغيلها دون الحاجة لضبط IPs أو بورتات.</p>
+            </div>
+          </div>
+
+          <!-- FAQ: PC Limit -->
+          <div class="faq-item">
+            <div class="faq-question">
+              <span data-i18n="faq_q_limit">هل يوجد حد أقصى لعدد الأجهزة أو الحواسيب المسموح بها في الصالة؟ (PC Limit)</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq_a_limit">لا يوجد أي حد على الإطلاق (No PC Limit)! رخصة 7Cafe تمنحك الحق في تشغيل وربط أي عدد تريده من أجهزة الكمبيوتر وشاشات الكونسول في صالتك، سواء كانت صالتك تحتوي على 10 أجهزة أو 100+ جهاز، دون دفع أي تكاليف إضافية لكل محطة.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              <span data-i18n="faq_q3">هل يدعم البرنامج أجهزة البلايستيشن وشاشات الكونسول؟</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq_a3">نعم بالتأكيد! يحتوي البرنامج على قسم مخصص للكونسول يسمح لك ببدء الجلسات وحساب وقت اللعب وإضافة الطلبات من الكافتيريا وحساب الفاتورة النهائية بدقة متناهية.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <div class="faq-question">
+              <span data-i18n="faq_q4">هل البرنامج خالٍ من الإعلانات حقاً؟</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </div>
+            <div class="faq-answer">
+              <p data-i18n="faq_a4">نعم، خالٍ تماماً 100% من الإعلانات والنوافذ المزعجة وأدوات التتبع. صممنا البرنامج ليقدم أعلى أداء بدون تشتيت لزبائنك وبدون استهلاك للإنترنت في إعلانات غير مرغوبة.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom Call To Action Banner -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-card">
+          <h2 class="cta-title" data-i18n="cta_title">جاهز لتطوير صالتك؟</h2>
+          <p class="cta-desc" data-i18n="cta_desc">حمّل 7Cafe، فعّل نسختك التجريبية، جرّب واحكم بنفسك</p>
+          <div class="cta-btn-group">
+            <a href="#" class="btn btn-highlight btn-lg trigger-download" id="cta-btn-download" data-i18n="nav_download">تحميل البرنامج</a>
+            <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-lg" id="cta-btn-trial" data-i18n="cta_btn_trial">ابدأ تجربتك المجانية 7 أيام الآن</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#" class="brand-logo">
+            <div class="logo-badge">7C</div>
+            <div class="brand-info">
+              <span class="brand-title">7Cafe</span>
+              <span class="brand-tagline">Cyber Cafe Management</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc" data-i18n="footer_desc">منصة متكاملة لإدارة مقاهي الإنترنت وصالات الألعاب والجيمنج.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_quick_links">روابط سريعة</h4>
+          <ul class="footer-links">
+            <li><a href="#features" data-i18n="nav_features">المميزات</a></li>
+            <li><a href="#tour" data-i18n="nav_tour">جولة بالنظام</a></li>
+            <li><a href="#client-panel" data-i18n="nav_client">واجهة العميل</a></li>
+            <li><a href="#pricing" data-i18n="nav_pricing">الأسعار</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title" data-i18n="footer_contact">التواصل والدعم</h4>
+          <ul class="footer-links">
+            <li><a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer">Telegram: @blank12x</a></li>
+            <li><a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" data-i18n="nav_trial">تجربة مجانية 7 أيام</a></li>
+            <li><a href="#" class="trigger-download" data-i18n="nav_download">تحميل البرنامج</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer_rights">جميع الحقوق محفوظة © 2026 7Cafe Server.</p>
+        <div>
+          <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: none; font-weight: 700;">t.me/blank12x</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Telegram Action Button -->
+  <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="floating-telegram-btn" title="تواصل معنا عبر تيليجرام" aria-label="Contact on Telegram">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/>
+    </svg>
+    <div class="floating-telegram-tooltip">تواصل مع الدعم عبر تيليجرام ⚡</div>
+  </a>
+
+  <!-- Download Modal -->
+  <div class="modal-backdrop" id="download-modal" role="dialog" aria-modal="true" aria-labelledby="modal-dl-title">
+    <div class="modal-card">
+      <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      <div class="modal-icon-badge">⬇️</div>
+      <h3 class="modal-title" id="modal-dl-title" data-i18n="modal_download_title">تحميل برنامج 7Cafe</h3>
+      <p class="modal-desc" data-i18n="modal_download_desc">رابط التحميل المباشر للبرنامج سيتم تفعيله وتحديثه قريباً جداً في هذه الصفحة. للحصول على رابط التحميل الفوري أو تجربة النسخة التجريبية مجاناً، تواصل معنا الآن عبر تيليجرام!</p>
+      
+      <div class="modal-info-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        <span>Telegram: @blank12x • متاح 24/7 للرد والتفعيل الفوري</span>
+      </div>
+
+      <a href="https://t.me/blank12x" target="_blank" rel="noopener noreferrer" class="btn btn-telegram btn-lg" style="width: 100%;" data-i18n="modal_download_btn">تواصل عبر تيليجرام للتحميل الفوري</a>
+    </div>
+  </div>
+
+  <!-- Screenshot Lightbox Modal -->
+  <div class="modal-backdrop" id="lightbox-modal" role="dialog" aria-modal="true">
+    <div class="modal-card lightbox-modal">
+      <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      <img src="assets/hero_dashboard.png" alt="7Cafe Full Preview" class="lightbox-img" id="lightbox-img">
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="js/main.js?v=3.2"></script>
+</body>
+</html>
