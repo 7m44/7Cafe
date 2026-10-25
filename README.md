@@ -74,50 +74,20 @@ Tired of legacy, bloated, and ad-ridden software that requires painful static IP
 ### 1. Real-Time Dashboard & Station Control
 Monitor every client PC and console session with live timers, current spend, and one-click actions (Lock, Unlock, Add Time, Transfer Session, Restart, Shutdown, Send Message).
 
-<div align="center">
-  <img src="assets/active_computers.png" alt="Active Computers Dashboard" width="850" />
-</div>
-
----
-
 ### 2. Built-in POS & Checkout
 Accelerate cafeteria, snack, and drink sales with instant barcode/item search, customizable fast-picks, and the ability to charge orders directly to the active PC session or settle as cash walk-in.
-
-<div align="center">
-  <img src="assets/pos_checkout.png" alt="POS Checkout Screen" width="850" />
-</div>
-
----
 
 ### 3. Inventory & Stock Management
 Keep track of your lounge's inventory with categorized products, cost vs. retail pricing, instant quantity adjustments, and automated low-stock warnings.
 
-<div align="center">
-  <img src="assets/inventory_stock.png" alt="Inventory and Stock Management" width="850" />
-</div>
-
----
-
 ### 4. Financial & Cash Drawer Shift Tracking
 Eliminate cash discrepancies with shift tracking. Monitor opening float, break down session revenue vs. retail POS sales in real time, and verify drawer balances before ending shifts.
-
-<div align="center">
-  <img src="assets/shifts_drawer.png" alt="Shifts and Cash Drawer Reconciliation" width="850" />
-</div>
-
----
 
 ### 5. PlayStation & Console Module
 Manage console gaming sessions alongside your PCs. Start single or multiplayer matches, pause timers, add snacks to the check, and print a consolidated receipt when players finish.
 
----
-
 ### 6. Client Floating In-Seat Experience
 Delight your gamers with a sleek, non-intrusive floating client bar that displays remaining time, total spent, cashier call button, and in-seat cafeteria ordering without disturbing active games.
-
-<div align="center">
-  <img src="assets/client_floating_panel.png" alt="Client Floating Bar Interface" width="600" />
-</div>
 
 ---
 
